@@ -7,7 +7,8 @@ function Header() {
             <div className="div-logo">
                 <Link to='/' id='Logo'>
                     <div>
-                        <img className='section-0' src="/Img/Logo-black.jpg" alt="" />
+                        <img className='section-0' src="/Img/Logo-black.svg" alt="" />
+
                     </div>
                 </Link>
             </div>

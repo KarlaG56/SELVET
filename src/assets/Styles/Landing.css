@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&display=swap');
 
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
 a{
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -11,7 +16,7 @@ a{
 
 /* Header*/
 
-.Header{
+.Header{    
     display: flex;
     align-items: center;
     align-content: center;
@@ -52,6 +57,9 @@ a{
     border-radius: 1em;
     font-family: 'Inter', sans-serif;
     font-size: 0.9em;
+    font-weight: bold;
+    margin: 0.7em   ;
+    
 }
 
 .section-3:hover{
@@ -73,7 +81,7 @@ a{
     font-family: 'Poppins', sans-serif;
     font-size: 2.5em;
     line-height: 1.2em;
-    margin-bottom: -0.2em;
+    margin-bottom: 0.7em;
 }
 
 .div-information p{
@@ -128,7 +136,7 @@ a{
     font-family: 'Poppins', sans-serif;
     font-size: 2.5em;
     line-height: 1.2em;
-    margin-bottom: -0.2em;
+    margin-bottom: 0.2em;
 }
 
 .div-infEmpresa p{
@@ -136,6 +144,7 @@ a{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     line-height: 1em;
+    margin-bottom: 01em;
 }
 
 .div-img-empresa{

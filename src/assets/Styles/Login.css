@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-container {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-Login-container {
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+    min-height: 80%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 2em;
+}
+
+.div-icon {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.img-LogoSelvet {
+    width: 80%;
+    height: 9em;
+}
+
+/* Login*/
+
+.form-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+}
+
+.form-Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0em;
+    width: 80%;
+}
+
+form .div-data-form {
+    position: relative;
+    border-bottom: 0.1em solid black;
+}
+
+.txt_field {
+    position: relative;
+    border-bottom: 2px solid #dbd3d3;
+    margin-bottom: 1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+}
+
+.txt_field input {
+    width: 26em;
+    height: 40px;
+    font-size: 0.8em;
+    font-weight: lighter;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #d9d9d9;
+    transform: translateY(-50%);
+    font-size: 0.87em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field input:focus~span::before,
+.txt_field input:valid~span::before {
+    width: 100%;
+}
+
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #c0ef;
+    transition: .5s;
+}
+
+.txt_field input:focus~label,
+.txt_field input:valid~label {
+    top: -0.01em;
+    color: #c0ef;
+}
+
+.form-btn {
+    width: 100%;
+    height: 3em;
+    background-color: #C0ef;
+    color: white;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0.7em;
+}
+
+.signup_link {
+    margin-top: 1em;
+    font-size: 0.9em;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.form-btn:hover{
+    background-color: rgb(224, 79, 250);
+    cursor: pointer;
+}
+
+.form-link{
+    color: #C0ef;
+}
+
+/*Registro*/
+

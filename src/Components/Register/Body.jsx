@@ -2,7 +2,7 @@ import Data from "./Data"
 
 function Body() {
     return (
-       <Data/>
+        <Body />
     )
 }
 
