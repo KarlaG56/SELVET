@@ -26,7 +26,7 @@ function Data() {
 
                 </form>
                 <div className="signup_link">
-                    ¿No cuentas con alguna cuenta? <Link className='form-link' to="/">Crear cuenta</Link>
+                    ¿No cuentas con alguna cuenta? <Link className='form-link' to="/Registro">Crear cuenta</Link>
                 </div>
             </div>
         </div>

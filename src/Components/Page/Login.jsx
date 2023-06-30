@@ -1,5 +1,5 @@
 import Body from "../Login/Body"
-import "../../assets/Styles/Login.css";
+import "../../assets/Styles/Account.css";
 
 function Login(){
     return(
