@@ -3,6 +3,7 @@ import Landing from "./Components/Page/Landing"
 import AcercaDe from "./Components/Page/AcercaDe"
 import Login from "./Components/Page/Login"
 import Register from "./Components/Page/Register"
+import AdminDispositive from "./Components/Page/AdminDispositive";
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />}></Route>
         <Route path="/AcercaDe" element={<AcercaDe />}></Route>
-        <Route path="/Inicio_sesion" element={<Login />}></Route>
+        <Route path="/Inicio-sesion" element={<Login />}></Route>
         <Route path="/Registro" element={<Register/>}></Route>
+        <Route path="/Administracion-Dispositivo" element={<AdminDispositive/>}></Route>
       </Routes>
     </BrowserRouter>
 

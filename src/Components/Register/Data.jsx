@@ -43,7 +43,7 @@ function Data() {
                     <button className='form-btn-regist'>Registrarse</button>
                 </form>
                 <div className="signup_link">
-                    ¿Ya cuentas con alguna cuenta? <Link className='form-link-regist' to="/Inicio_sesion">Iniciar sesión</Link>
+                    ¿Ya cuentas con alguna cuenta? <Link className='form-link-regist' to="/Inicio-sesion">Iniciar sesión</Link>
                 </div>
             </div>
         </div>
