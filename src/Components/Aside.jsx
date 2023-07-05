@@ -53,7 +53,7 @@ function Aside() {
                 </div>
             </Link>
 
-            <Link  >
+            <Link to='/' >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/power-off.svg" />
                     <a className="txt-option" href="">Cerrar sesión</a>
