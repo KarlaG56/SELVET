@@ -40,6 +40,7 @@ function Data() {
                             <label className="txt-form-admin-user" htmlFor="">Laboratorio:</label>
                             <select className='select-user' name="" id="" required >
                                 <option value="">Seleccionar</option>
+                                <option value="">Selecciona89r</option>
                             </select>
                         </div>
 

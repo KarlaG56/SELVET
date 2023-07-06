@@ -50,6 +50,44 @@ hr {
     font-size: 0.72rem;
 }
 
+.div-select-container-lab{
+    display: flex;
+    align-items: center;
+    width: 22%;
+}
+
+.txt-select-lab{
+
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.select-lab{
+    width: 100%;
+    height: 2rem;
+    font-size: 0.8rem;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin: 5%;
+    background-color: #c0ef;
+    
+}
+
+.select-lab option{
+    display: flex;
+    background-color: #bd0de8;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border: none;
+}
+
+
+
 /*Aside*/
 
 .div-contanier-aside {
