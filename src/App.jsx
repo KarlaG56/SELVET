@@ -15,11 +15,11 @@ function App() {
         <Route path="/AcercaDe" element={<AcercaDe />}></Route>
         <Route path="/Inicio-sesion" element={<Login />}></Route>
         <Route path="/Registro" element={<Register/>}></Route>
-        <Route path="/Administracion-Dispositivo" element={<AdminDispositive/>}></Route>
+        <Route path="/Administracion-dispositivo" element={<AdminDispositive/>}></Route>
       </Routes>
     </BrowserRouter>
 
   )
 }
 
-export default App
+export default App;

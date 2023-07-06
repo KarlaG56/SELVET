@@ -4,49 +4,48 @@ import '.././assets/Styles/Menu.css';
 function Aside() {
     return (
         <div className="div-contanier-aside" >
-
             <div className="div-logo-white">
                 <img className="img-logo-white" src="/Img/Logo-white.png" alt="" />
             </div>
             <hr />
 
             <div className="div-menu"></div>
-            <Link  >
+            <Link to="/Administracion-dispositivo" >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/dashboard-solid-240.svg" />
                     <a className="txt-option" href="">Administración de dispositivos</a>
                 </div>
             </Link>
 
-            <Link  >
+            <Link to='/' >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/user-plus.svg" />
                     <a className="txt-option" href="">Administración de usuarios</a>
                 </div>
             </Link>
 
-            <Link  >
+            <Link to='/'  >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/metrica.svg" />
                     <a className="txt-option" href="">Métricas</a>
                 </div>
             </Link>
 
-            <Link  >
+            <Link to='/' >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/user.svg" />
                     <a className="txt-option" href="">Perfil</a>
                 </div>
             </Link>
 
-            <Link  >
+            <Link to='/'>
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/book.svg" />
                     <a className="txt-option" href="">Manual operativa  </a>
                 </div>
             </Link>
 
-            <Link  >
+            <Link to='/'  >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/book-bookmark.svg" />
                     <a className="txt-option" href="">Manual de usuario</a>
