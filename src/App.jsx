@@ -4,6 +4,7 @@ import AcercaDe from "./Components/Page/AcercaDe"
 import Login from "./Components/Page/Login"
 import Register from "./Components/Page/Register"
 import AdminDispositive from "./Components/Page/AdminDispositive";
+import AdminUsers from "./Components/Page/AdminUsers";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Inicio-sesion" element={<Login />}></Route>
         <Route path="/Registro" element={<Register/>}></Route>
         <Route path="/Administracion-dispositivo" element={<AdminDispositive/>}></Route>
+        <Route path="/Administracion-usuarios" element={<AdminUsers/>}></Route>
       </Routes>
     </BrowserRouter>
 

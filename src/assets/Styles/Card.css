@@ -13,13 +13,24 @@
     justify-content: space-between;
 }
 
+.div-card-users{
+    width: 100%;
+    height: 20%;
+    margin-top: 3%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .div-txt-card{
-    width: 40%;
+    width: 50%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
     line-height: 1.7rem;
 }
+
 
 .txt-principal{
     color: #c0ef;
@@ -32,6 +43,18 @@
     font-size: 0.8rem;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
+}
+
+.txt-card-data-number{
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-txt-card-number p{
+    color: #c0ef;
 }
 
 .div-btn-card{

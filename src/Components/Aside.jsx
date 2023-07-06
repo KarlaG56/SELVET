@@ -17,7 +17,7 @@ function Aside() {
                 </div>
             </Link>
 
-            <Link to='/' >
+            <Link to='/Administracion-usuarios' >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/user-plus.svg" />
                     <a className="txt-option" href="">Administración de usuarios</a>
