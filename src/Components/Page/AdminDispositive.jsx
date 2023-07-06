@@ -1,7 +1,7 @@
 import Body from "../AdminDispositive/Body";
 import Header from "../Header";
 import Aside from "../Aside";
-import '../../assets/Styles/AdminDispositive.css';
+import '../../assets/Styles/Administration.css';
 
 function AdminDispositive() {
     return (
