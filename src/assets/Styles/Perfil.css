@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Administrador*/
+
+.div-perfil-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-form-perfil {
+    width: 37%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    border: #b3b3b3 0.1rem solid;
+    display: flex;
+    justify-content: center;
+}
+
+.div-form {
+
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-icon-perfil {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-user-circle {
+    width: 6rem;
+    height: 6rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.div-data-perfil {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+}
+
+.txt-perfil-form {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+}
+
+.input-perfil-form {
+    border: none;
+    outline: none;
+    background-color: #d9d9d9;
+    height: 1.5rem;
+}
+
+
+.btn-perfil {
+    background-color: #c0ef;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.btn-perfil:hover{
+    background-color: rgb(229, 98, 252);
+}
+
