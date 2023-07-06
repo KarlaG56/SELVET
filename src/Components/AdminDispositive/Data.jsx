@@ -30,15 +30,46 @@ function Data() {
                         <a className="txt-scroll">Recientemente agregados</a>
                     </div>
 
-                    <div className="body-scroll">
-                        <Card
-                        nombre="KALA"
-                        number="1244"
-                        />
+                    <div className="scroll">
+                        <div className="body-scroll">
 
+                            <Card
+                                nombre="Sangre"
+                                number="1267876944"
+                            />
+                            <Card
+                                nombre="Muestras"
+                                number="124898084"
+                            />
+
+                            <Card
+                                nombre="Sangre"
+                                number="1267876944"
+                            />
+                            <Card
+                                nombre="Muestras"
+                                number="124898084"
+                            />
+
+                            <Card
+                                nombre="Sangre"
+                                number="1267876944"
+                            />
+                            <Card
+                                nombre="Muestras"
+                                number="124898084"
+                            />
+
+                            <Card
+                                nombre="twilight"
+                                number="1267876944"
+                            />
+                            <Card
+                                nombre="ERen"
+                                number="124898084"
+                            />
+                        </div>
                     </div>
-
-                    
                 </div>
             </div>
         </div>

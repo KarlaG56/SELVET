@@ -6,13 +6,51 @@
 .div-card-admin{
     width: 100%;
     height: 15%;
-    background-color: brown;
+    margin-top: 3%;
+    background-color:white;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.div-txt-card{
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7rem;
+}
+
 .txt-principal{
     color: #c0ef;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+
+.txt-card-data{
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+
+.div-btn-card{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
+    height: 50%;
+}
+
+.btn-card{
+    background-color: #FF0101;
+    font-size: 0.9rem;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.btn-card:hover{
+background-color: #ff6565;
 }
