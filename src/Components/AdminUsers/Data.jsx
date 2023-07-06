@@ -17,7 +17,7 @@ function Data() {
                         </div>
 
                         <div className="div-inf-user">
-                            <label className="txt-form-admin-user" htmlFor="">Correo electróńico</label>
+                            <label className="txt-form-admin-user" htmlFor="">Correo electrónico</label>
                             <input className="input-admin" type="email" required />
                         </div>
 

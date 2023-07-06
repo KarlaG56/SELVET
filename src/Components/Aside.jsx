@@ -31,7 +31,7 @@ function Aside() {
                 </div>
             </Link>
 
-            <Link to='/' >
+            <Link to='/Perfil-administrador' >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/user.svg" />
                     <a className="txt-option" href="">Perfil</a>

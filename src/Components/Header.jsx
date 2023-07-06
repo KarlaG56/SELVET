@@ -5,7 +5,9 @@ function Header() {
             <div className="div-container-nav">
                 <div>
                     <a href="">Seleccionar:</a>
-                    <button></button>
+                    <select name="" id="">
+                        <option value=""></option>
+                    </select>
                 </div>
             </div>
         </div>
