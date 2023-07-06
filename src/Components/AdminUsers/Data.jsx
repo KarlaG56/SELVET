@@ -1,3 +1,4 @@
+import { useState, useEffect, useContext } from 'react'
 import Card from "./Card";
 
 function Data() {
@@ -5,20 +6,43 @@ function Data() {
         <div className="div-dispositive-container">
             <div className="div-register-dispositive">
                 <div className="div-form-container ">
-                    <div className="icon-adminD">
-                        <img className="img-dispositive" src="/Icon/dialpad.svg" alt="" />
+                    <div className="icon-adminU">
+                        <img className="img-user" src="/Icon/id-card.svg" alt="" />
                     </div>
 
                     <form action="">
-                        <div className="div-inf-disp">
-                            <label className="txt-form-admin" htmlFor="">Alias</label>
-                            <input className="input-admin" type="text" />
+                        <div className="div-inf-user">
+                            <label className="txt-form-admin-user" htmlFor="">Nombre</label>
+                            <input className="input-admin" type="text" required/>
                         </div>
 
-                        <div className="div-inf-disp">
-                            <label className="txt-form-admin" htmlFor="">Número de serie</label>
-                            <input className="input-admin" type="text" />
+                        <div className="div-inf-user">
+                            <label className="txt-form-admin-user" htmlFor="">Correo electróńico</label>
+                            <input className="input-admin" type="email" required />
                         </div>
+
+                        <div className="div-inf-user">
+                            <label className="txt-form-admin-user" htmlFor="">Télefono</label>
+                            <input className="input-admin" type="text" required />
+                        </div>
+
+                        <div className="div-inf-user">
+                            <label className="txt-form-admin-user" htmlFor="">Contraseña</label>
+                            <input className="input-admin" type="password" required />
+                        </div>
+
+                        <div className="div-inf-user">
+                            <label className="txt-form-admin-user" htmlFor="">Confirmar contraseña</label>
+                            <input className="input-admin" type="password" required />
+                        </div>
+
+                        <div className="div-inf-select">
+                            <label className="txt-form-admin-user" htmlFor="">Laboratorio:</label>
+                            <select className='select-user' name="" id="" required >
+                                <option value="">Seleccionar</option>
+                            </select>
+                        </div>
+
                         <div className="div-btn-disp">
                             <button className="btn-disp">Registrar</button>
                         </div>
@@ -34,41 +58,57 @@ function Data() {
                         <div className="body-scroll">
 
                             <Card
-                                nombre="Sangre"
-                                number="1267876944"
-                            />
-                            <Card
                                 nombre="Muestras"
                                 number="124898084"
                                 laboratory="24"
                             />
 
                             <Card
-                                nombre="Sangre"
-                                number="1267876944"
-                            />
-                            <Card
-                                nombre="Muestras"
+                                nombre="Ichigo "
                                 number="124898084"
+                                laboratory="17"
                             />
 
                             <Card
-                                nombre="Sangre"
-                                number="1267876944"
-                            />
-                            <Card
                                 nombre="Muestras"
                                 number="124898084"
+                                laboratory="1"
                             />
 
                             <Card
-                                nombre="twilight"
-                                number="1267876944"
-                            />
-                            <Card
-                                nombre="ERen"
+                                nombre="Ichigo "
                                 number="124898084"
+                                laboratory="07"
                             />
+
+                            <Card
+                                nombre="Muestras"
+                                number="124898084"
+                                laboratory="1"
+                            />
+
+                            <Card
+                                nombre="Ichigo "
+                                number="124898084"
+                                laboratory="89"
+                            />
+
+                            <Card
+                                nombre="Muestras"
+                                number="124898084"
+                                laboratory="100"
+                            />
+
+                            <Card
+                                nombre="Ichigo 16"
+                                number="124898084"
+                                laboratory="24"
+                            />
+
+
+
+
+
                         </div>
                     </div>
                 </div>

@@ -3,10 +3,10 @@ import "../../assets/Styles/Card.css";
 function Card(props) {
     return (
         <div className="div-card-users">
-            <div className="div-txt-card">
+            <div className="div-txt-card-user">
                 <a className="txt-principal" > {props.nombre}</a>
                 <a className="txt-card-data"> {props.number}</a>
-                <a className="txt-card-data-number"> Laboratorio: <p>{props.laboratory}</p></a>
+                <a className="txt-card-data-number"> Laboratorio: <p id="Nlaboratory"> {props.laboratory}</p></a>
             </div>
 
             <div className="div-btn-card">
