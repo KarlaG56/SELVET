@@ -1,4 +1,4 @@
-import Body from '../PerfilAdmin/Body';
+import Body from '../Perfil/Admin/Body';
 import Header from "../Header";
 import Aside from "../Aside";
 import '../../assets/Styles/Perfil.css';
