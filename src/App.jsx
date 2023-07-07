@@ -6,6 +6,7 @@ import Register from "./Components/Page/Register"
 import AdminDispositive from "./Components/Page/AdminDispositive";
 import AdminUsers from "./Components/Page/AdminUsers";
 import PerfilAdmin from "./Components/Page/PerfilAdmin";
+import EditPerfilAdmin from "./Components/Page/EditPerfilAdmin";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Administracion-dispositivo" element={<AdminDispositive/>}></Route>
         <Route path="/Administracion-usuarios" element={<AdminUsers/>}></Route>
         <Route path="/Perfil-administrador" element={<PerfilAdmin/>}></Route>
+        <Route path="/Editar-Perfil-administrador" element={<EditPerfilAdmin/>}></Route>        
       </Routes>
     </BrowserRouter>
 

@@ -29,7 +29,7 @@ function Data() {
                             <input type="password" className="input-perfil-form" required />
                         </div>
 
-                        <Link to="/" className="div-btn-perfil">
+                        <Link to="/Editar-Perfil-administrador" className="div-btn-perfil">
                            <button className="btn-perfil">Editar</button>
                         </Link>
 
