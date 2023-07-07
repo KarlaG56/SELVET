@@ -38,14 +38,14 @@ function Aside() {
                 </div>
             </Link>
 
-            <Link to='/'>
+            <Link to='/Manual-operativa'>
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/book.svg" />
                     <a className="txt-option" href="">Manual operativa  </a>
                 </div>
             </Link>
 
-            <Link to='/'  >
+            <Link to='/Manual-usuario'  >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/book-bookmark.svg" />
                     <a className="txt-option" href="">Manual de usuario</a>

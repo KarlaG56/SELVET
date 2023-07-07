@@ -7,6 +7,8 @@ import AdminDispositive from "./Components/Page/AdminDispositive";
 import AdminUsers from "./Components/Page/AdminUsers";
 import PerfilAdmin from "./Components/Page/PerfilAdmin";
 import EditPerfilAdmin from "./Components/Page/EditPerfilAdmin";
+import ManualOPerativa from "./Components/Page/ManualOPerativa";
+import ManualUsuario from "./Components/Page/ManualUsuario";
 
 
 function App() {
@@ -22,7 +24,10 @@ function App() {
         <Route path="/Administracion-dispositivo" element={<AdminDispositive/>}></Route>
         <Route path="/Administracion-usuarios" element={<AdminUsers/>}></Route>
         <Route path="/Perfil-administrador" element={<PerfilAdmin/>}></Route>
-        <Route path="/Editar-Perfil-administrador" element={<EditPerfilAdmin/>}></Route>        
+        <Route path="/Editar-Perfil-administrador" element={<EditPerfilAdmin/>}></Route> 
+        <Route path="/Manual-operativa" element={<ManualOPerativa/>}></Route>
+        <Route path="/Manual-usuario" element={<ManualUsuario/>}></Route>  
+              
       </Routes>
     </BrowserRouter>
 
