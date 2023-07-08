@@ -26,7 +26,7 @@ function Header() {
                     </div>
                 </Link>
 
-                <Link id='section-button'>
+                <Link to='/Inicio-sesion' className='section-button'>
                     <button className='section-3'>Iniciar sesion</button>
                 </Link>
 
