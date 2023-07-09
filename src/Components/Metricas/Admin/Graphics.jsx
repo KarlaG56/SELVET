@@ -4,93 +4,9 @@ import { PieChart, ResponsiveContainer, Pie, Tooltip, Cell, LineChart, Line, XAx
 const ArraM = [
     {
         name: "Js",
-        stu: 7,
-        fees: 0,
-    },
-
-    {
-        name: "Py",
-        stu: 9990,
-        fees: 11500,
-    },
-
-    {
-        name: "Py",
-        stu: 20,
+        stu: 12,
         fees: 13,
     },
-
-    {
-        name: "Py",
-        stu: 80,
-        fees: 13,
-    },
-
-    {
-        name: "Py",
-        stu: 80,
-        fees: 19903,
-    },
-
-    {
-        name: "Js",
-        stu: 7,
-        fees: 0,
-    },
-
-    {
-        name: "Py",
-        stu: 9990,
-        fees: 11500,
-    },
-
-    {
-        name: "Py",
-        stu: 20,
-        fees: 13,
-    },
-
-    {
-        name: "Py",
-        stu: 80,
-        fees: 13,
-    },
-
-    {
-        name: "Py",
-        stu: 80,
-        fees: 19903,
-    },
-    {
-        name: "Js",
-        stu: 7,
-        fees: 0,
-    },
-
-    {
-        name: "Py",
-        stu: 9990,
-        fees: 11500,
-    },
-
-    {
-        name: "Py",
-        stu: 20,
-        fees: 13,
-    },
-
-    {
-        name: "Py",
-        stu: 80,
-        fees: 13,
-    },
-
-    {
-        name: "Py",
-        stu: 888989990,
-        fees: 1990999993,
-    },
-
 
 ]
 
@@ -100,7 +16,7 @@ const data = [
     { name: 'NameB', value: 4567 },
 ];
 
-const COLORS = ['#b39ddb', "#5c6bc0"];
+const COLORS = ['#009DFF', "#FF0F23"];
 
 function Graphics() {
     return (
@@ -133,22 +49,38 @@ function Graphics() {
                 </div>
 
                 <div className="graphics-circle">
-                    <ResponsiveContainer>
-                        <PieChart >
-                            <Pie
-                                dataKey='value'
-                                data={data}
-                                outerRadius={100}
+                    <div className="circle">
+                        <ResponsiveContainer>
+                            <PieChart >
+                                <Pie
+                                    dataKey='value'
+                                    data={data}
+                                    outerRadius={100}
 
-                                fill='#82ca9d'
-                            >
-                                {data.map((entry, index) => (
-                                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                                ))}
-                            </Pie>
-                            <Tooltip />
-                        </PieChart>
-                    </ResponsiveContainer>
+                                    fill='#82ca9d'
+                                >
+                                    {data.map((entry, index) => (
+                                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                                    ))}
+                                </Pie>
+                                <Tooltip />
+                            </PieChart>
+                        </ResponsiveContainer>
+                    </div>
+
+                    <div className="inf-codeColorCircle">
+                        <div className="code-color">
+                            <canva className="circle-code-blue"></canva>
+                            <a href="" className="circle-txt-code">Sin errores</a>
+                        </div>
+
+
+                        <div className="code-color">
+                            <canva className="circle-code-red"></canva>
+                            <a href="" className="circle-txt-code">Errores</a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

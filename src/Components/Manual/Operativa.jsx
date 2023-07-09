@@ -1,6 +1,6 @@
-function Operativa(){
-    return(
-<embed src="/PDF/NIKTO.pdf" className="manual-pdf"></embed>
+function Operativa() {
+    return (
+        <embed src="/PDF/NIKTO.pdf" className="manual-pdf"></embed>
     )
 }
 

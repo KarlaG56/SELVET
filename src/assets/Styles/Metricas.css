@@ -27,28 +27,32 @@
     align-items: center;
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
-    background-color: #17091A;
-    border-radius: 1rem
-    
+    background-color: #340440;
+    border-radius: 1rem;
+    border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.div-select-sensor a{
-    color: #fff;
+.div-select-sensor a {
+    color: #ffffff;
 }
 
 .select-graphics-sensor {
     background-color: transparent;
-    border: white 0.1rem solid;
+    border: rgb(255, 255, 255) 0.1rem solid;
     height: 1.5rem;
     margin-left: 5%;
     outline: none;
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
     width: 50%;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.select-graphics-sensor option {
+    color: black;
 }
 
 .graphics-container {
@@ -69,13 +73,53 @@
 
 .line {
     margin-top: 7.5%;
-
 }
 
+/*Circle*/
 
 .graphics-circle {
     width: 40%;
     height: 70%;
     background-color: white;
     border: #b3b3b3 0.1rem solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.circle {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+.inf-codeColorCircle {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.code-color{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.circle-code-red{
+    width: 2rem;
+    height: 1rem;
+    background-color: #FF0F23;
+}
+
+.circle-code-blue{
+    width: 2rem;
+    height: 1rem;
+    background-color: #009DFF;
+}
+
