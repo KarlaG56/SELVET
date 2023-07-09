@@ -24,7 +24,7 @@ function Aside() {
                 </div>
             </Link>
 
-            <Link to='/'  >
+            <Link to='/Metricas-administrador'  >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/metrica.svg" />
                     <a className="txt-option" href="">Métricas</a>
