@@ -142,8 +142,8 @@
 }
 
 .img-user {
-    width: 4rem;
-    height: 4rem;
+    width: 5.7rem;
+    height: 5.7rem;
 }
 
 .div-inf-user {
@@ -179,5 +179,5 @@
 .txt-form-admin-user {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.84rem;
 }
