@@ -8,6 +8,19 @@ const ArraM = [
         fees: 13,
     },
 
+    {
+        name: "Java",
+        stu: 0,
+        fees: 13,
+    },
+
+    {
+        name: "PHP",
+        stu: 2,
+        fees: 13,
+    },
+
+
 ]
 
 

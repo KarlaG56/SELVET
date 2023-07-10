@@ -86,7 +86,7 @@ form .div-data-form {
     position: absolute;
     top: 50%;
     left: 5px;
-    color: #d9d9d9;
+    color: #919191;
     transform: translateY(-50%);
     font-size: 0.87em;
     pointer-events: none;
@@ -208,7 +208,7 @@ form .div-data-form {
     position: absolute;
     top: 50%;
     left: 5px;
-    color: #d9d9d9;
+    color: #919191;
     transform: translateY(-50%);
     font-size: 0.79em;
     pointer-events: none;

@@ -99,27 +99,26 @@
     margin-bottom: 2%;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
 }
 
 .code-color{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    justify-content: center;
+    width: 100%;
 }
 
 .circle-code-red{
     width: 2rem;
     height: 1rem;
     background-color: #FF0F23;
+    margin-right: 3% ;
 }
 
 .circle-code-blue{
     width: 2rem;
     height: 1rem;
     background-color: #009DFF;
+    margin-right: 3% ;
 }
 

@@ -13,7 +13,7 @@ function Aside() {
             <Link to="/Administracion-dispositivo" >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/dashboard-solid-240.svg" />
-                    <a className="txt-option" href="">Administración de dispositivos</a>
+                    <a className="txt-option" href="">Administración de Laboratorios</a>
                 </div>
             </Link>
 
