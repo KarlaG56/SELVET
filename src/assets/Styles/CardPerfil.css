@@ -48,15 +48,15 @@
     margin-top: 6%;
 }
 
-.txt-perfil-form {
+.txt-perfil {
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
 }
 
-.input-perfil-form {
-    border: none;
-    outline: none;
+.txt-static-perfil {
     background-color: #d9d9d9;
+    outline: none;
+
     height: 1.5rem;
 }
 

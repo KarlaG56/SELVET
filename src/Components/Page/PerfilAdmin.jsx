@@ -1,7 +1,7 @@
 import Body from '../Perfil/Admin/Body';
 import Header from "../Header";
 import Aside from "../Aside";
-import '../../assets/Styles/Perfil.css';
+import '../../assets/Styles/CardPerfil.css';
 
 
 function PerfilAdmin() {
