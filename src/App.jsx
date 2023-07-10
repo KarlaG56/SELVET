@@ -6,10 +6,12 @@ import Register from "./Components/Page/Register"
 import AdminDispositive from "./Components/Page/AdminDispositive";
 import AdminUsers from "./Components/Page/AdminUsers";
 import PerfilAdmin from "./Components/Page/PerfilAdmin";
+import PerfilUser from "./Components/Page/PerfilUser";
 import EditPerfilAdmin from "./Components/Page/EditPerfilAdmin";
 import ManualOPerativa from "./Components/Page/ManualOPerativa";
 import ManualUsuario from "./Components/Page/ManualUsuario";
 import MetricasAdmin from "./Components/Page/MetricasAdmin";
+
 
 
 function App() {
@@ -25,10 +27,11 @@ function App() {
         <Route path="/Administracion-dispositivo" element={<AdminDispositive/>}></Route>
         <Route path="/Administracion-usuarios" element={<AdminUsers/>}></Route>
         <Route path="/Perfil-administrador" element={<PerfilAdmin/>}></Route>
-        <Route path="/Editar-Perfil-administrador" element={<EditPerfilAdmin/>}></Route> 
+        <Route path="/Perfil-usuario" element={<PerfilUser/>}></Route>
+        <Route path="/Editar-Perfil" element={<EditPerfilAdmin/>}></Route> 
         <Route path="/Manual-operativa" element={<ManualOPerativa/>}></Route>
         <Route path="/Manual-usuario" element={<ManualUsuario/>}></Route>  
-        <Route path="/Metricas-administrador" element={<MetricasAdmin/>}></Route>   
+        <Route path="/Metricas" element={<MetricasAdmin/>}></Route>   
       </Routes>
     </BrowserRouter>
 

@@ -48,6 +48,12 @@
     margin-top: 6%;
 }
 
+.div-data-perfil-lab {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+}
+
 .txt-perfil {
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
@@ -56,8 +62,16 @@
 .txt-static-perfil {
     background-color: #d9d9d9;
     outline: none;
-
     height: 1.5rem;
+}
+
+.txt-static-perfil-lab {
+    background-color: #d9d9d9;
+    outline: none;
+    width: 5rem;
+    height: 1.5rem;
+    margin-left: 5%;
+
 }
 
 
