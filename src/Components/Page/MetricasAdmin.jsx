@@ -1,4 +1,4 @@
-import Body from "../Metricas/Admin/Body";
+import Body from "../Metricas/Body";
 import Header from "../Header";
 import Aside from "../Aside";
 import '../../assets/Styles/Metricas.css';
