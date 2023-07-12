@@ -14,6 +14,8 @@ a{
     color: black;    
 }
 
+
+
 /* Header*/
 
 .Header{    
@@ -123,6 +125,66 @@ a{
     cursor: pointer;
 }
 
+.div-card-container-inf{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.div-card-container{
+    width: 100%;
+    height: 100%;
+}
+
+.title-benefits-container{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+
+.cards-container-data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.div-card-benefits{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-card-benefits{
+    width: 90%;
+    height: 13rem;
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.txt-card-benefits{
+    text-align: center;
+    line-height:3rem;
+}
+
+.cont-card-benefits{
+    text-align: center;
+    color: #9b9999;
+    font-family: 'Inter', sans-serif;
+}
+
+
 /* Informacion Acerca*/
 
 .div-body-container{
@@ -157,3 +219,4 @@ a{
     margin: 0; 
     height: 25em;
 }
+

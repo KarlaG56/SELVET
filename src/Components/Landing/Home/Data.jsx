@@ -16,7 +16,6 @@ function Data() {
             <div className="div-img">
                 <img className='img-medicine' src="/Img/Medicine.svg" alt="" />
             </div>
-
         </div>
     );
 }
