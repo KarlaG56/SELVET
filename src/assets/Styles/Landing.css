@@ -225,6 +225,66 @@ a{
 
 /*Footer*/
 
+.footer{
+    width: 100%;
+    height: 14rem;
+}
+
+.div-contaneiner-data-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container-redes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-redes-container{
+    display: flex;
+    justify-content: center;
+}
+
+.title-redes-sociales{
+    color:#c0ef;
+    font-family: 'Poppins', sans-serif;
+}
+
+.redes-container{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-redes{
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.div-txt-end{
+    display: flex;
+    justify-content: center;
+}
+
+.txt-end{
+    color: #c0ef;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    font-weight: bold;
+}
+
 
 /* Informacion Acerca*/
 

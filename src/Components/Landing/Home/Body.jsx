@@ -2,7 +2,7 @@ import Header from "../Header";
 import Data from "./Data";
 import Cards from "./Cards"
 import Message from "./Mesagge";
-import Capc from "../../Page/Login"
+import Footer from "../Footer";
 
 function Body(){
     return(
@@ -11,7 +11,7 @@ function Body(){
             <Data/>
             <Cards/>
             <Message/>
-            <Capc/>
+            <Footer/>
         </>
     )
 }
