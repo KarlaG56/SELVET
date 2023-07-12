@@ -1,9 +1,15 @@
 import Body from "../Landing/Home/Body";
 
+
 import "../../assets/Styles/Landing.css";
-function Landing(){
-    return(
-        <Body/>
+function Landing() {
+    return (
+        <>
+         <Body />
+        </>
+           
+        
+
     );
 }
 

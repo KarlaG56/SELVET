@@ -35,10 +35,11 @@ function Graphics() {
     return (
         <div className="div-graphics-container">
             <div className="div-select-sensor">
-                <a href="">Sensor:</a>
+                <a className='sensor-txt'>Sensor:</a>
                 <select name="" id="" className="select-graphics-sensor">
-                    <option value="">Seleccionar</option>
+                    <option value="">Selecciona</option>
                     <option value="">Gas LP</option>
+                    <option value="">Monoxido de carbono</option>
                 </select>
             </div>
             <div className="graphics-container">
