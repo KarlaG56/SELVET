@@ -59,10 +59,6 @@ function Aside() {
                 </div>
             </Link>
 
-            <div className="div-btn-pdf" >
-                <img className="icon-menu-pdf" src="/Icon/printer.svg" />
-                <button className="btn-pdf">Generar informe</button>
-            </div>
 
         </div>
     )
