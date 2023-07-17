@@ -2,7 +2,13 @@ import {Link} from "react-router-dom";
 import Card from "./Card";
 
 function Data() {
-    return (
+    return (<>
+
+        <div className="header-title-vista">
+                <img src="/Icon/menu.svg" className='img-vista' />
+                <a href="" className='title-vista'>Perfil</a>
+            </div>
+        
         <div className="div-perfil-container">
             <div className="div-form-perfil">
                 <div className="div-form">
@@ -23,6 +29,7 @@ function Data() {
 
 
         </div>
+        </>
     )
 }
 

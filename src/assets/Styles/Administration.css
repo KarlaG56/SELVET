@@ -180,3 +180,20 @@
     font-family: 'Inter', sans-serif;
     font-size: 0.84rem;
 }
+
+.header-title-vista{
+    margin-top: -3rem;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.title-vista{
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.img-vista{
+    width: 2.4rem;
+    height: 2.8rem;
+}

@@ -52,11 +52,11 @@ function Aside() {
                 </div>
             </Link>
 
-            <Link to='/' >
-                <div className="option" >
-                    <img className="icon-menu" src="/Icon/power-off.svg" />
-                    <a className="txt-option" href="">Cerrar sesión</a>
-                </div>
+            
+
+            <Link to="" className="div-btn-pdf" >
+                <img className="icon-menu-pdf" src="/Icon/power-off.svg" />
+                <button className="btn-pdf">Cerrar sesión</button>
             </Link>
 
 

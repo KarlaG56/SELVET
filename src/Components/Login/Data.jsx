@@ -1,6 +1,32 @@
+import { Children, useState } from 'react';
+
 import { Link } from 'react-router-dom';
 
 function Data() {
+
+    const [datos, setDatos] = useState({
+        emailLogin:"",
+        passLogin:""
+    });
+
+    const handleonChange = (e) =>{
+
+        setDatos ({
+            ...datos,
+            [e.target.name] : e.target.value
+            
+        })
+    }
+
+    const handleonSubmit = (e) =>{
+        e.preventDefault();
+        
+        console.log(datos.emailLogin + "" + datos.passLogin);
+    }
+    
+
+
+
     return (
         <div className="div-container">
             <div className="div-Login-container">
@@ -9,20 +35,29 @@ function Data() {
                     <a className="form-title">Iniciar sesión</a>
                 </div>
 
-                <form action="" className="form-Login">
+                <form onSubmit={handleonSubmit} className="form-Login">
                     <div className="txt_field">
-                        <input type="email" id="correoLogin" required />
+                        <input 
+                        type="email" 
+                      
+                        name='emailLogin'
+                        onChange={handleonChange} 
+                        required />
                         <span></span>
                         <label>Correo electrónico</label>
                     </div>
 
                     <div className="txt_field">
-                        <input type="password" id="passwordLogin" required />
+                        <input type="password" 
+                         
+                        name='passLogin'
+                        onChange={handleonChange}
+                        required />
                         <span></span>
                         <label>Contraseña</label>
                     </div>
 
-                    <button className='form-btn'>Iniciar sesión</button>
+                    <button type='submit' className='form-btn'>Iniciar sesión</button>
 
                 </form>
                 <div className="signup_link">
