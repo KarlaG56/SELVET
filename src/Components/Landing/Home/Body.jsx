@@ -4,14 +4,14 @@ import Cards from "./Cards"
 import Message from "./Mesagge";
 import Footer from "../Footer";
 
-function Body(){
-    return(
+function Body() {
+    return (
         <>
-            <Header/>
-            <Data/>
-            <Cards/>
-            <Message/>
-            <Footer/>
+            <Header />
+            <Data />
+            <Cards />
+            <Message />
+            <Footer />
         </>
     )
 }

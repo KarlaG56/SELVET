@@ -19,10 +19,7 @@ const ArraM = [
         stu: 2,
         fees: 13,
     },
-
-
 ]
-
 
 const data = [
     { name: 'Name', value: 2400 },
@@ -61,7 +58,6 @@ function Graphics() {
                                 </LineChart>
                             </ResponsiveContainer>
                         </div>
-
                     </div>
 
                     <div className="graphics-circle">

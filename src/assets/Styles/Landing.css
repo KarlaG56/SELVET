@@ -7,6 +7,7 @@
     padding:0;
     box-sizing: border-box;
 }
+
 a{
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -14,16 +15,13 @@ a{
     color: black;    
 }
 
-
-
 /* Header*/
 
 .Header{    
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: space-between;
-     
+    justify-content: space-between;     
 }
 
 .navbar{
@@ -61,7 +59,6 @@ a{
     font-size: 0.9em;
     font-weight: bold;
     margin: 0.7em   ;
-    
 }
 
 .section-3:hover{
@@ -128,7 +125,6 @@ a{
 .div-card-container-inf{
     width: 100%;
     height: 100%;
-   
 }
 
 .div-card-container{
@@ -143,7 +139,6 @@ a{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
 }
-
 
 .cards-container-data{
     width: 100%;
@@ -270,7 +265,6 @@ a{
 .icon-redes{
     width: 3rem;
     height: 3rem;
-
 }
 
 .div-txt-end{
@@ -284,7 +278,6 @@ a{
     align-items: center;
     font-weight: bold;
 }
-
 
 /* Informacion Acerca*/
 
@@ -320,4 +313,3 @@ a{
     margin: 0; 
     height: 25em;
 }
-

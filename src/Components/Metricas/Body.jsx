@@ -1,13 +1,13 @@
 import Graphics from "./Graphics";
 
-function Body(){
-    return(
+function Body() {
+    return (
         <>
-        <div className="header-title-vista">
+            <div className="header-title-vista">
                 <img src="/Icon/menu.svg" className='img-vista' />
                 <a href="" className='title-vista'>Métricas</a>
             </div>
-        <Graphics/>
+            <Graphics />
         </>
     )
 }

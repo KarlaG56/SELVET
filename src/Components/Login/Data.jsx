@@ -1,31 +1,28 @@
-import { Children, useState } from 'react';
+import {  useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
 function Data() {
 
     const [datos, setDatos] = useState({
-        emailLogin:"",
-        passLogin:""
+        emailLogin: "",
+        passLogin: ""
     });
 
-    const handleonChange = (e) =>{
+    const handleonChange = (e) => {
 
-        setDatos ({
+        setDatos({
             ...datos,
-            [e.target.name] : e.target.value
-            
+            [e.target.name]: e.target.value
+
         })
     }
 
-    const handleonSubmit = (e) =>{
+    const handleonSubmit = (e) => {
         e.preventDefault();
-        
+
         console.log(datos.emailLogin + "" + datos.passLogin);
     }
-    
-
-
 
     return (
         <div className="div-container">
@@ -37,22 +34,22 @@ function Data() {
 
                 <form onSubmit={handleonSubmit} className="form-Login">
                     <div className="txt_field">
-                        <input 
-                        type="email" 
-                      
-                        name='emailLogin'
-                        onChange={handleonChange} 
-                        required />
+                        <input
+                            type="email"
+
+                            name='emailLogin'
+                            onChange={handleonChange}
+                            required />
                         <span></span>
                         <label>Correo electrónico</label>
                     </div>
 
                     <div className="txt_field">
-                        <input type="password" 
-                         
-                        name='passLogin'
-                        onChange={handleonChange}
-                        required />
+                        <input type="password"
+
+                            name='passLogin'
+                            onChange={handleonChange}
+                            required />
                         <span></span>
                         <label>Contraseña</label>
                     </div>

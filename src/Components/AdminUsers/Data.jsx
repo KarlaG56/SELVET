@@ -47,6 +47,7 @@ function Data() {
                             <button className="btn-disp">Registrar</button>
                         </div>
                     </form>
+
                 </div>
 
                 <div className="div-scrollData-form">
@@ -62,52 +63,6 @@ function Data() {
                                 number="124898084"
                                 laboratory="24"
                             />
-
-                            <Card
-                                nombre="Ichigo "
-                                number="124898084"
-                                laboratory="17"
-                            />
-
-                            <Card
-                                nombre="Muestras"
-                                number="124898084"
-                                laboratory="1"
-                            />
-
-                            <Card
-                                nombre="Ichigo "
-                                number="124898084"
-                                laboratory="07"
-                            />
-
-                            <Card
-                                nombre="Muestras"
-                                number="124898084"
-                                laboratory="1"
-                            />
-
-                            <Card
-                                nombre="Ichigo "
-                                number="124898084"
-                                laboratory="89"
-                            />
-
-                            <Card
-                                nombre="Muestras"
-                                number="124898084"
-                                laboratory="100"
-                            />
-
-                            <Card
-                                nombre="Ichigo 16"
-                                number="124898084"
-                                laboratory="24"
-                            />
-
-
-
-
 
                         </div>
                     </div>

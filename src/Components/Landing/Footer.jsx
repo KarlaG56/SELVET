@@ -23,7 +23,6 @@ function Footer() {
                                 <img src="/Icon/twitter.png" className="icon-redes" />
                             </Link>
                         </div>
-
                     </div>
                 </div>
             </div>

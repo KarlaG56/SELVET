@@ -5,5 +5,4 @@ function Body() {
        <Data/>
     )
 }
-
 export default Body;

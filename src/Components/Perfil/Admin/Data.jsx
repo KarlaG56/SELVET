@@ -14,14 +14,10 @@ function Data() {
 
                         <Link to="/Editar-Perfil" className="div-btn-perfil">
                            <button className="btn-perfil">Editar</button>
-                        </Link>
-
-                        
+                        </Link>     
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }

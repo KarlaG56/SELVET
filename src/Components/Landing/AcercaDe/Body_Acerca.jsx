@@ -1,11 +1,11 @@
 import Header from "../Header";
 import Body from "../AcercaDe/Data_Acerca";
 
-function Body_Acerca(){
-    return(
+function Body_Acerca() {
+    return (
         <>
-        <Header/>
-        <Body/>
+            <Header />
+            <Body />
         </>
     )
 }

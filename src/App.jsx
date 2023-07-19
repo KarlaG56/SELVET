@@ -13,11 +13,9 @@ import ManualUsuario from "./Components/Page/ManualUsuario";
 import MetricasAdmin from "./Components/Page/MetricasAdmin";
 
 
-
 function App() {
 
   return (
-
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />}></Route>
@@ -34,7 +32,6 @@ function App() {
         <Route path="/Metricas" element={<MetricasAdmin/>}></Route>   
       </Routes>
     </BrowserRouter>
-
   )
 }
 

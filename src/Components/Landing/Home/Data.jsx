@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 function Data() {
     return (
         <div className="div-Body">
-
             <div className="div-information">
                 <h4 className="title-selvet">Alerta química: tu entorno seguro, nuestro software te avisa</h4>
                 <p className="text">Monitoreo constante y alerta ante posibles riesgos. Descubre cómo podemos 

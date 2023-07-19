@@ -8,7 +8,6 @@ function Aside() {
                 <img className="img-logo-white" src="/Img/Logo-white.png" alt="" />
             </div>
             <hr />
-
             <div className="div-menu"></div>
             <Link to="/Administracion-dispositivo" >
                 <div className="option" >
@@ -38,13 +37,6 @@ function Aside() {
                 </div>
             </Link>
 
-            <Link to='/Manual-operativa'>
-                <div className="option" >
-                    <img className="icon-menu" src="/Icon/book.svg" />
-                    <a className="txt-option" href="">Manual operativa  </a>
-                </div>
-            </Link>
-
             <Link to='/Manual-usuario'  >
                 <div className="option" >
                     <img className="icon-menu" src="/Icon/book-bookmark.svg" />
@@ -52,13 +44,11 @@ function Aside() {
                 </div>
             </Link>
 
-            
 
             <Link to="" className="div-btn-pdf" >
                 <img className="icon-menu-pdf" src="/Icon/power-off.svg" />
                 <button className="btn-pdf">Cerrar sesión</button>
             </Link>
-
 
         </div>
     )
