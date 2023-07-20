@@ -2,17 +2,42 @@ import { React } from 'react';
 import Card from './Card';
 import { PieChart, ResponsiveContainer, Pie, Tooltip, Cell, LineChart, Line, XAxis, YAxis, CartesianGrid } from 'recharts';
 
-const ArraM = [
-
-
+const graphicsLineal = [
     {
-        name: "2023-07-14 03:57",
+        name: "2023-07-20 03:07",
         stu: 12,
         op:1,
         fees: 13,
     },
- 
-]
+    {
+        name: "2023-07-20 06:57",
+        stu: 9,
+        op:2,
+        fees: 13,
+    },
+
+    {
+        name: "2023-07-20 07:23",
+        stu: 5,
+        op:2,
+        fees: 13,
+    },
+
+    {
+        name: "2023-07-20 03:57",
+        stu: 7,
+        op:9,
+        fees: 13,
+    },
+
+    {
+        name: "2023-07-20 08:34",
+        stu: 1,
+        op:8,
+        fees: 13,
+    }
+    
+    ]
 
 const data = [
     { name: 'Name', value: 2400 },
@@ -34,6 +59,8 @@ function Graphics() {
                             <option value="">Selecciona</option>
                             <option value="">Gas LP</option>
                             <option value="">Monoxido de carbono</option>
+                            <option value="">Hidrogeno</option>
+                            <option value="">Temperatura y humedad</option>
                         </select>
                     </div>
 
@@ -108,7 +135,7 @@ function Graphics() {
                         <div className="line">
                             <ResponsiveContainer width="100%" height="100%" aspect={2}>
                                 <LineChart
-                                    data={ArraM}
+                                    data={graphicsLineal}
                                     width={500}
                                     height={300}
                                     margin={{ bottom: 15, top: 2, right: 15, left: 10 }}
