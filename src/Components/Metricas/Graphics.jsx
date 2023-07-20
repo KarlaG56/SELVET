@@ -70,8 +70,19 @@ function Graphics() {
                         <div className="card-cont-static">
                             <div className="calculo-static-data">
 
-                                <div className="img-calculo">
-                                    <img src="" alt="" className="img-calculo" />
+                                <div className="div-img-calculo">
+                                    <img src="/Icon/calculo.svg" alt="" className="img-calculo" />
+                                </div>
+
+                                <div className='static'>
+                                    <Card
+                                    moda="9"
+                                    media="90"
+                                    mediana="3"
+                                    desvMed="1"
+                                    desvStand="69"
+                                    varianza="89"
+                                    />
                                 </div>
 
                             </div>

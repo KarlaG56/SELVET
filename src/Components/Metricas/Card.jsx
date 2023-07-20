@@ -1,3 +1,5 @@
+import "../../assets/Styles/CardSatic.css"
+
 function Card(props){
     return(
         <div className="card-static-container">
@@ -17,18 +19,18 @@ function Card(props){
             </div>
 
             <div className="txt-static-metricas">
-                <a href="" className="txt-title-calculo"> Desv. media </a>
+                <a href="" className="txt-title-calculo"> Desviación media </a>
                 <a href="" className="txt-calculo"> {props.desvMed} </a>
             </div>
 
             <div className="txt-static-metricas">
-                <a href="" className="txt-title-calculo"> Desv. estandar </a>
+                <a href="" className="txt-title-calculo"> Desviacíon estandar </a>
                 <a href="" className="txt-calculo"> {props.desvStand} </a>
             </div>
 
             <div className="txt-static-metricas">
                 <a href="" className="txt-title-calculo"> Varianza </a>
-                <a href="" className="txt-calculo"> {props.devVar} </a>
+                <a href="" className="txt-calculo"> {props.varianza} </a>
             </div>
         </div>
 

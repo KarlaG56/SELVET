@@ -87,13 +87,30 @@
 }
 
 .calculo-static-data {
-    background-color: #009DFF;
-    width: 90%;
-    height: 90%;
+
+    width: 100%;
+    height: 98%;
     display: flex;
     flex-direction: column;
 }
 
+.div-img-calculo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-calculo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.static{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
 
 
 /*Lineal*/
@@ -101,7 +118,6 @@
 .graphics-container {
     width: 80%;
     height: 100%;
-    background-color: aqua;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -111,7 +127,6 @@
     width: 100%;
     height: 30rem;
     margin-bottom: 10%;
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: space-between;
