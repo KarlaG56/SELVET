@@ -1,6 +1,6 @@
 import Header from "../Header";
 import Aside from "../Aside";
-import Body from "../EditarPerfil/Admin/Body";
+import Body from "../EditarPerfil/Body";
 import '../../assets/Styles/EditarPerfil.css';
 
 function EditPerfilAdmin(){
