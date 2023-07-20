@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate, Navigate } from "react-router-dom";
 import { useState } from 'react';
 
 function Data() {
 
-    const Navigate = useNavigate();
+    const nav = useNavigate();
 
     const [registo, setDataReg] = useState({
         nameReg: "",
@@ -21,11 +21,39 @@ function Data() {
             ...registo,
             [e.target.name]: e.target.value
         })
-    }
+    }    
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(registo.emailReg+""+registo.numReg);
+
+        if(datos.passReg == datos.passCReg){
+            var myHeaders = new Headers();
+            myHeaders.append("Accept", "application/json")
+            myHeaders.append("Content-Type", "application/json")
+
+            var raw = JSON.stringify({
+                "email": datos.emailReg,
+                "password": datos.passReg,
+                "name": datos.nameReg,
+                "phone": datos.numReg
+            })
+
+            var requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: raw,
+                redirect: "follow"
+            }
+
+            fetch('https://backselvet.viewdns.net/api/admin',requestOptions)
+            .then(response => response.json())
+            .then(result => {
+                result.status ? () => {alert("Registro exitoso"); nav("/Inicion-sesion")} : alert("No se pudo registrar al usuario")
+            })
+            .catch(err => console.log(err))
+        }
+
+        
     }
 
 

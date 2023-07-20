@@ -24,6 +24,7 @@ function Data() {
         e.preventDefault();
 
         var myHeaders = new Headers();
+        myHeaders.append("Accept", "application/json")
         myHeaders.append("Content-Type", "application/json")
 
         var raw = JSON.stringify({
@@ -38,14 +39,15 @@ function Data() {
             redirect: "follow"
         }
 
-        fetch("http://localhost:8000/api/validate", requestOptions)
+        fetch("https://backselvet.viewdns.net/api/validate", requestOptions)
             .then(response => response.json())
             .then(result => {
                 if (result.status) {
                     localStorage.setItem("User", result)
-                    result.response.type == Admin ? navigate("/Administracion-dispositivo") : ("")
+                    result.response.type == Admin ? navigate("/Administracion-dispositivo") : navigate("/Metricas")
                 }
             })
+            .catch(err => console.log(err))
     }
 
     return (
