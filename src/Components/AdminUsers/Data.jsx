@@ -12,32 +12,32 @@ function Data() {
                     <form action="">
                         <div className="div-inf-user">
                             <label className="txt-form-admin-user" htmlFor="">Nombre</label>
-                            <input className="input-admin" type="text" required/>
+                            <input className="input-admin" type="text" name="nameEmp" required/>
                         </div>
 
                         <div className="div-inf-user">
                             <label className="txt-form-admin-user" htmlFor="">Correo electrónico</label>
-                            <input className="input-admin" type="email" required />
+                            <input className="input-admin" type="email" name="emailEmp" required />
                         </div>
 
                         <div className="div-inf-user">
                             <label className="txt-form-admin-user" htmlFor="">Télefono</label>
-                            <input className="input-admin" type="text" required />
+                            <input className="input-admin" type="text" name="numEmp" required />
                         </div>
 
                         <div className="div-inf-user">
                             <label className="txt-form-admin-user" htmlFor="">Contraseña</label>
-                            <input className="input-admin" type="password" required />
+                            <input className="input-admin" type="password"  name="passEmp" required />
                         </div>
 
                         <div className="div-inf-user">
                             <label className="txt-form-admin-user" htmlFor="">Confirmar contraseña</label>
-                            <input className="input-admin" type="password" required />
+                            <input className="input-admin" type="password"  name="passCEmp" required />
                         </div>
 
                         <div className="div-inf-select">
                             <label className="txt-form-admin-user" htmlFor="">Laboratorio:</label>
-                            <select className='select-user' name="" id="" required >
+                            <select className='select-user' name="labEmp" id="" required >
                                 <option value="">Seleccionar</option>
                                 <option value="">Selecciona89r</option>
                             </select>

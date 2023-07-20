@@ -11,33 +11,7 @@ const ArraM = [
         op:1,
         fees: 13,
     },
-    {
-        name: "2023-07-14 03:57",
-        stu: 9,
-        op:2,
-        fees: 13,
-    },
-
-    {
-        name: "2023-07-14 03:57",
-        stu: 5,
-        op:2,
-        fees: 13,
-    },
-
-    {
-        name: "2023-07-14 03:57",
-        stu: 7,
-        op:9,
-        fees: 13,
-    },
-
-    {
-        name: "2023-07-14 03:57",
-        stu: 1,
-        op:8,
-        fees: 13,
-    }
+ 
 ]
 
 const data = [
@@ -151,10 +125,6 @@ function Graphics() {
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
         </div>
     )

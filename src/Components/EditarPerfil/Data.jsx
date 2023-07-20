@@ -11,27 +11,27 @@ function Data() {
                     <form >
                         <div className="div-data-Editperfil">
                             <label htmlFor="" className="txt-editPerfil-form">Nombre</label>
-                            <input type="text" className="input-editPerfil-form" required />
+                            <input type="text" name='edNameA' className="input-editPerfil-form" required />
                         </div>
 
                         <div className="div-data-Editperfil">
                             <label htmlFor="" className="txt-editPerfil-form">Correo electrónico</label>
-                            <input type="email" className="input-editPerfil-form" required />
+                            <input type="email" name='edEmailA' className="input-editPerfil-form" required />
                         </div>
 
                         <div className="div-data-Editperfil">
                             <label htmlFor="" className="txt-editPerfil-form">Teléfono</label>
-                            <input type="text" className="input-editPerfil-form" required />
+                            <input type="text" name='edNumA' className="input-editPerfil-form" required />
                         </div>
 
                         <div className="div-data-Editperfil">
                             <label htmlFor="" className="txt-editPerfil-form">Contraseña</label>
-                            <input type="password" className="input-editPerfil-form" required />
+                            <input type="password" name='edPassA' className="input-editPerfil-form" required />
                         </div>
 
                         <div className="div-data-Editperfil">
                             <label htmlFor="" className="txt-editPerfil-form">Confirmar contraseña</label>
-                            <input type="password" className="input-editPerfil-form" required />
+                            <input type="password" name='edPassCA' className="input-editPerfil-form" required />
                         </div>
 
                         <div className="div-btn-Editperfil">

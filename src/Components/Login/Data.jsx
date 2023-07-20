@@ -1,6 +1,6 @@
-import {  useState } from 'react';
+import { useState } from 'react';
 
-import { Link, useNavigate, Navigate } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 
 function Data() {
 
@@ -39,13 +39,13 @@ function Data() {
         }
 
         fetch("http://localhost:8000/api/validate", requestOptions)
-        .then(response => response.json())
-        .then(result => {
-            if(result.status){
-                localStorage.setItem("User", result)
-                result.response.type == Admin ? navigate("/Administracion-dispositivo") : ("")
-            }
-        })
+            .then(response => response.json())
+            .then(result => {
+                if (result.status) {
+                    localStorage.setItem("User", result)
+                    result.response.type == Admin ? navigate("/Administracion-dispositivo") : ("")
+                }
+            })
     }
 
     return (
@@ -60,7 +60,6 @@ function Data() {
                     <div className="txt_field">
                         <input
                             type="email"
-
                             name='emailLogin'
                             onChange={handleonChange}
                             required />
@@ -69,8 +68,8 @@ function Data() {
                     </div>
 
                     <div className="txt_field">
-                        <input type="password"
-
+                        <input
+                            type="password"
                             name='passLogin'
                             onChange={handleonChange}
                             required />

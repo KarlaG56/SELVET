@@ -12,15 +12,15 @@ function Data() {
                     <form action="">
                         <div className="div-inf-disp">
                             <label className="txt-form-admin" htmlFor="">Alias</label>
-                            <input className="input-admin" type="text" required/>
+                            <input className="input-admin" name="alias" type="text" required/>
                         </div>
 
                         <div className="div-inf-disp">
                             <label className="txt-form-admin" htmlFor="">Número de serie</label>
-                            <input className="input-admin" type="text" required/>
+                            <input className="input-admin" type="text" name="numSerie" required/>
                         </div>
                         <div className="div-btn-disp">
-                            <button className="btn-disp">Registrar</button>
+                            <button type="submit" className="btn-disp">Registrar</button>
                         </div>
                     </form>
 
