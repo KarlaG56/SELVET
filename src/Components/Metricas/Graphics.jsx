@@ -8,29 +8,34 @@ const ArraM = [
     {
         name: "2023-07-14 03:57",
         stu: 12,
+        op:1,
         fees: 13,
     },
     {
         name: "2023-07-14 03:57",
         stu: 9,
+        op:2,
         fees: 13,
     },
 
     {
         name: "2023-07-14 03:57",
         stu: 5,
+        op:2,
         fees: 13,
     },
 
     {
         name: "2023-07-14 03:57",
         stu: 7,
+        op:9,
         fees: 13,
     },
 
     {
         name: "2023-07-14 03:57",
         stu: 1,
+        op:8,
         fees: 13,
     }
 ]
@@ -76,7 +81,7 @@ function Graphics() {
 
                                 <div className='static'>
                                     <Card
-                                    moda="9"
+                                    moda="99,67"
                                     media="90"
                                     mediana="3"
                                     desvMed="1"
@@ -137,9 +142,12 @@ function Graphics() {
                                     <CartesianGrid />
                                     <XAxis dataKey={'name'} interval={`preserveStartEnd`} />
                                     <YAxis dataKey={'fees'} />
-                                    <Line dataKey={'stu'} />
+                                    <Line type="monotone" dataKey={'stu'} stroke='blue' strokeWidth={2}    />
+                                    <Line type="monotone" dataKey={'op'} stroke='red' strokeWidth={2}  />
+
                                 </LineChart>
                             </ResponsiveContainer>
+
                         </div>
                     </div>
                 </div>

@@ -11,15 +11,15 @@ function Footer() {
                     <div className="redes-container">
 
                         <div className="redes">
-                            <Link>
+                            <Link to="https://www.facebook.com/profile.php?id=100094573431283&mibextid=ZbWKwL">
                                 <img src="/Icon/facebook.png" className="icon-redes" />
                             </Link>
 
-                            <Link>
+                            <Link to="https://www.instagram.com/selvetlaboratory/">
                                 <img src="/Icon/instagram.png" className="icon-redes" />
                             </Link>
 
-                            <Link>
+                            <Link to="">
                                 <img src="/Icon/twitter.png" className="icon-redes" />
                             </Link>
                         </div>

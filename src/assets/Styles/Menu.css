@@ -161,7 +161,10 @@ hr {
     border: none;
     color: white;
     font-family: 'Inter', sans-serif;
-    cursor: pointer;    
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
 }
 
 .div-btn-pdf:hover {
