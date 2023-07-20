@@ -1,6 +1,6 @@
 function Usuario() {
     return (
-        <embed src="/PDF/k.pdf" className="manual-pdf"></embed>
+        <embed src="/PDF/Manual_usuario.pdf" className="manual-pdf"></embed>
     )
 }
 export default Usuario;

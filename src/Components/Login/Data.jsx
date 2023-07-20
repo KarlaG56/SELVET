@@ -1,8 +1,10 @@
 import {  useState } from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, Navigate } from 'react-router-dom';
 
 function Data() {
+
+    const navigate = useNavigate();
 
     const [datos, setDatos] = useState({
         emailLogin: "",
@@ -21,7 +23,29 @@ function Data() {
     const handleonSubmit = (e) => {
         e.preventDefault();
 
-        console.log(datos.emailLogin + "" + datos.passLogin);
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json")
+
+        var raw = JSON.stringify({
+            "email": datos.emailLogin,
+            "password": datos.passLogin
+        })
+
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: "follow"
+        }
+
+        fetch("http://localhost:8000/api/validate", requestOptions)
+        .then(response => response.json())
+        .then(result => {
+            if(result.status){
+                localStorage.setItem("User", result)
+                result.response.type == Admin ? navigate("/Administracion-dispositivo") : ("")
+            }
+        })
     }
 
     return (
