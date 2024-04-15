@@ -91,6 +91,10 @@ hr {
 
 /*Aside*/
 
+.link-no-underline {
+    text-decoration: none; /* Elimina el subrayado */
+  }
+
 .div-contanier-aside {
     position: absolute;
     width: 17%;
@@ -101,13 +105,13 @@ hr {
     flex-direction: column;
 }
 
-.div-menu {
-    width: 70%;
+.menu{
+    width: 100%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    align-content: center;
     justify-content: center;
-
 }
 
 .option {
@@ -115,9 +119,17 @@ hr {
     align-items: center;
     align-content: center;
     text-decoration: none;
-    margin-top: 6%;
-    width: 100%;
+    width: 10rem;
+    margin: 10%;
+    margin-left: -1rem;
+    padding: 2%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
 }
+
+
 
 .option:hover{
     background-color: #432949;
@@ -126,26 +138,13 @@ hr {
 .txt-option {
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 0.72rem;
+    font-size:1rem;
+    outline: none;
 }
 
-.icon-menu {
-    width: 12.5%;
-    height: 12.5%;
-    margin-right: 3%;
-    margin-left: 2.7%;
-}
 
-.div-btn-pdf {
-    width: 100%;
-    height: 8%;
-    margin-top: 15%;
-    background-color: #c0ef;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    text-decoration: none;
-}
+
+
 
 .icon-menu-pdf {
     width: 13%;

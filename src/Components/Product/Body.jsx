@@ -1,13 +1,13 @@
-import Graphics from "./Graphics";
+import Data from './Data';
 
 function Body() {
     return (
         <>
             <div className="header-title-vista">
                 <img src="/Icon/menu.svg" className='img-vista' />
-                <p href="" className='title-vista'>Métricas</p>
+                <p href="" className='title-vista'>Productos</p>
             </div>
-            <Graphics />
+            <Data />
         </>
     )
 }

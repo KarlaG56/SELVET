@@ -1,34 +1,25 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Landing from "./Components/Page/Landing"
-import AcercaDe from "./Components/Page/AcercaDe"
-import Login from "./Components/Page/Login"
-import Register from "./Components/Page/Register"
-import AdminDispositive from "./Components/Page/AdminDispositive";
-import AdminUsers from "./Components/Page/AdminUsers";
-import PerfilAdmin from "./Components/Page/PerfilAdmin";
-import PerfilUser from "./Components/Page/PerfilUser";
-import EditPerfilAdmin from "./Components/Page/EditPerfilAdmin";
-import ManualUsuario from "./Components/Page/ManualUsuario";
-import MetricasAdmin from "./Components/Page/MetricasAdmin";
+import No_dispensable from "./Components/Page/No_dispensable";
+import Presupuesto from "./Components/Page/Presupuesto";
+import Metricas from "./Components/Page/Metricas";
+import Categoria from "./Components/Page/Categoria";
+import ProductDispensable from "./Components/Page/ProductDispensable";
+import { DatosProvider } from "./context/context"
 
 
 function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Landing />}></Route>
-        <Route path="/AcercaDe" element={<AcercaDe />}></Route>
-        <Route path="/Inicio-sesion" element={<Login />}></Route>
-        <Route path="/Registro" element={<Register/>}></Route>
-        <Route path="/Administracion-dispositivo" element={<AdminDispositive/>}></Route>
-        <Route path="/Administracion-usuarios" element={<AdminUsers/>}></Route>
-        <Route path="/Perfil-administrador" element={<PerfilAdmin/>}></Route>
-        <Route path="/Perfil-usuario" element={<PerfilUser/>}></Route>
-        <Route path="/Editar-Perfil" element={<EditPerfilAdmin/>}></Route> 
-        <Route path="/Manual-usuario" element={<ManualUsuario/>}></Route>  
-        <Route path="/Metricas" element={<MetricasAdmin/>}></Route>   
-      </Routes>
+      <DatosProvider>
+        <Routes>
+          <Route path="/" element={<Presupuesto />}></Route>
+          <Route path="/Categoria" element={<Categoria/>}></Route>
+          <Route path="/Dispensable" element={<ProductDispensable/>}></Route>
+          <Route path="/No_dispensable" element={<No_dispensable />}></Route>
+          <Route path="/Metricas" element={<Metricas />}></Route>
+        </Routes>
+      </DatosProvider>
     </BrowserRouter>
   )
 }

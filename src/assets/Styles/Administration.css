@@ -32,8 +32,11 @@
     align-items: center;
     flex-direction: column;
     margin-top: 3%;
-    margin-right: 3.5%;
     border: #b3b3b3 0.1rem solid;
+}
+
+.div-form-container form{
+    margin-top: 12%;
 }
 
 .icon-adminD {
@@ -91,11 +94,11 @@
 /*Sroll-dispositive*/
 
 .div-scrollData-form {
-    width: 40%;
+    width: 55%;
     height: 90%;
     margin-top: 3%;
-    margin-left: 3.5%;
-    background-color: #80808050;
+    margin-left: 2%;
+    background-color: #ffffff50;
     border: #b3b3b3 0.1rem solid;
     position: relative;      
 }
@@ -116,16 +119,23 @@
 }
 
 .scroll{
-    height: 88%;
-    margin-top: -4.7%;
+    height: 100%;
+    overflow-y: scroll; 
+
 }
 
 .body-scroll{
-    overflow-y: scroll; 
     scroll-behavior: smooth;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 12%;
     height: 100%
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 
@@ -149,7 +159,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 4%;
+    margin-bottom: 7%;
+    margin-top: 7%;
 }
 
 .div-inf-select{

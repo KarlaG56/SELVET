@@ -1,15 +1,15 @@
-import Graphics from "./Graphics";
+import Data from './Data2';
 
-function Body() {
+function Body2() {
     return (
         <>
             <div className="header-title-vista">
                 <img src="/Icon/menu.svg" className='img-vista' />
-                <p href="" className='title-vista'>Métricas</p>
+                <p href="" className='title-vista'>Productos</p>
             </div>
-            <Graphics />
+            <Data />
         </>
     )
 }
 
-export default Body;
+export default Body2;
